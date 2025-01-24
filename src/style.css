@@ -1,0 +1,36 @@
+.fake-canvas{
+    border:3px dashed violet;
+    width: 100%;
+    height: 100%;
+}
+canvas{
+    border:3px dashed violet;
+    width: 100%;
+    height: 100%;
+}
+.text{
+    position:absolute;
+}
+.main-container{
+    margin: 0%;
+}
+.canvas-container{
+    aspect-ratio: 0.773;
+    height:480px;
+}
+.centered-container{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    justify-content: center;
+
+}
+.page-input{
+    width: 80px;
+}
